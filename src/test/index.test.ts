@@ -18,8 +18,6 @@ const sampleDataInput2 =  {
   "createdAt": "2022-04-04T20:06:21.756Z"
 }
 
-
-
 const transferSample =  {
   "from": "5987454698",
   "to": "7741566054",
