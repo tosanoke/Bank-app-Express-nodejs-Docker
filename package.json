@@ -3,28 +3,42 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "tsc",
+    "dev": "tsc & ts-node-dev ./bin/www",
+    "test": "jest",
+    "type": "module"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~4.3.2",
     "ejs": "~3.1.6",
     "express": "~4.17.1",
+    "express-validator": "^6.14.0",
     "http-errors": "~1.8.0",
-    "morgan": "~1.10.0"
+    "jest": "^27.5.1",
+    "morgan": "~1.10.0",
+    "nanoid": "~3.3.2",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "uuidv4": "^6.2.13",
+    "zod": "~3.14.3"
   },
   "devDependencies": {
-    "@types/cookie-parser": "~1.4.2",
-    "@types/debug": "~4.1.7",
-    "@types/express": "~4.17.13",
-    "@types/http-errors": "~1.8.1",
-    "@types/morgan": "~1.9.3",
-    "@types/node": "14",
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.13",
+    "@types/http-errors": "^1.8.2",
+    "@types/jest": "^27.4.1",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.23",
+    "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "~4.29.1",
     "@typescript-eslint/parser": "~4.29.1",
     "eslint": "~7.32.0",
     "eslint-config-prettier": "~8.3.0",
     "prettier": "~2.3.2",
-    "typescript": "~4.3.5"
+    "ts-node-dev": "^1.1.8"
   }
 }

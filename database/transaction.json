@@ -1,0 +1,10 @@
+[
+   {
+      "reference": "4679dc78-9ff3-4aa1-9660-b06cfaab030d",
+      "senderAccount": "7741566054",
+      "amount": 3000,
+      "receiverAccount": "5987454698",
+      "transferDesc": "transferred 3000 to 5987454698",
+      "createdAt": "Mon Apr 04 2022 21:09:12 GMT+0100 (West Africa Standard Time)"
+   }
+]
